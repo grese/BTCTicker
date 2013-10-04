@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>YUI MVC</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="stylesheet" href="stylesheets/vendor/normalize.css">
+    <link rel="stylesheet" href="stylesheets/vendor/pure.min.css">
+    <link rel="stylesheet" href="stylesheets/main.css">
+    <link rel="stylesheet" href="stylesheets/layout.css">
+
+</head>
+<body class="yui3-app">
+
+				<!--[if lt IE 7]>
+	             <p class="chromeframe">You are using an outdated browser. 
+				 <a href="http://browsehappy.com/">Upgrade your browser today</a> or 
+				 <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> 
+				 to better experience this site.</p>
+	             <![endif]-->
+
+	            <!--[if lt IE 9]>
+	             <script src="scripts/vendor/es5-shim.min.js"></script>
+	             <script src="scripts/vendor/json3.min.js"></script>
+	             <![endif]-->
+
+    <div class="pure-g-r " id="layout">
+
+       <div id="nav">
+           <a href="#menu" id="menuLink" class="pure-menu-link">
+               <img src="images/navicon-png2x.png" width="20" alt="Menu toggle"/>
+           </a>
+
+           <!-- Right column (menu) -->
+           <nav>
+               <div class='pure-u' id='menu'>
+                   <div class="pure-menu pure-menu-open">
+                       <a class="pure-menu-heading" href="#">BTC App</a>
+                        <ul>
+                           <li class=''><a href='#'>Home</a></li>
+                            <li class=''><a href='#ticker'>Ticker</a></li>
+                       </ul>
+                   </div>
+               </div><!-- end #menu -->
+           </nav>
+       </div>
+
+       <div class='pure-u' id='main'>
+            <div id="container" class="yui3-app-views"></div>
+       </div><!-- END #main -->
+
+
+    </div><!-- END #layout -->
+
+
+
+    <script src="scripts/vendor/cordova.js"></script>
+    <script src="scripts/vendor/modernizr-2.6.2.min.js"></script>
+    <script src="scripts/vendor/yui-full.min.js"></script>
+    <script src="scripts/config.js"></script>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/layout.js"></script>
+    <script type="text/javascript">
+        window.onerror = function(message, url, lineNumber) {
+            console.log("Error: "+message+" in "+url+" at line "+lineNumber);
+        }
+    </script>
+    <script>
+//BASE_URL = window.location.href.split('BTCTicker.app/app')[0]+'BTCTicker.app/app/';
+        YUI().use('node', 'event','app', 'homeView', 'tickerView', function (Y) {
+            var app = new Y.App({
+                views: {
+                    homeView: {type: 'HomeView'},
+                    tickerView: {type: 'TickerView'}
+                },
+                viewContainer : '#container',
+                container : '#container',
+                                serverRouting: false
+            });
+            app.route('', function () {
+                this.showView('homeView');
+            });
+            app.route('home', function () {
+                this.showView('homeView');
+            });
+            app.route('ticker', function () {
+                this.showView('tickerView');
+            });
+            app.render().dispatch();
+        });
+    </script>
+</body>
+</html>
