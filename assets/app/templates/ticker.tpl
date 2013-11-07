@@ -1,4 +1,2 @@
-<div>
-    <h1>OTHER VIEW</h1>
-    <p>...and this is the OTHER view.</p>
-</div>
+<h1>TICKER VIEW</h1>
+        <p>This is the ticker view...</p>

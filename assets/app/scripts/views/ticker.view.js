@@ -1,21 +1,27 @@
-YUI.add('tickerView',function(Y){
-    Y.TickerView = Y.Base.create('tickerView', Y.View, [], {
-        initializer:function(){
+YUI.add('tickerView', function(Y){
+    'use strict';
+
+    var template;
+    var TickerView = Y.Base.create('tickerView', Y.View, [], {
+        template: '',
+        initializer: function(){
             this.pending = new Y.Parallel();
-            Y.io('templates/ticker.tpl',{
+            Y.io('/templates/ticker.tpl',{
                 on:{
                     complete:this.pending.add(function(id,response){
-                        template = Y.Handlebars.compile(response.responseText);
+                        template = Y.Handlebars.compile(response.responseText)();
                     })
                 }
             },this);
         },
-        render:function(){
+        render: function( containerID ){
             this.pending.done(Y.bind(function(){
-                this.get('container').setHTML(template());
+                Y.one('#'+containerID).setHTML(template);
             },this));
-
             return this;
         }
     });
-}, '0.0.1', { requires: ['view','io-base','handlebars','parallel']});
+
+    Y.namespace('BTCApp').TickerView = TickerView;
+
+}, '0.0.1');

@@ -1,2 +1,2 @@
-<h1>HOME VIEW</h1>
-<p>This is the home view...</p>
+<h1>HOME</h1>
+<p>This is the home template!</p>

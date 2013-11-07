@@ -1,10 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="604fb968-e2ff-4224-9885-bd68d2c652b2" name="Default" comment="" />
+    <list default="true" readonly="true" id="604fb968-e2ff-4224-9885-bd68d2c652b2" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BTCTicker.xcodeproj/project.xcworkspace/xcuserdata/grese.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/../BTCTicker.xcodeproj/project.xcworkspace/xcuserdata/grese.xcuserdatad/UserInterfaceState.xcuserstate" />
+    </list>
     <ignored path="assets.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="604fb968-e2ff-4224-9885-bd68d2c652b2" time="1380913623391" ignored="false" />
+    <file path="/index.html" changelist="604fb968-e2ff-4224-9885-bd68d2c652b2" time="1383849449097" ignored="false" />
+    <file path="/app.js" changelist="604fb968-e2ff-4224-9885-bd68d2c652b2" time="1381340392050" ignored="false" />
+    <file path="/layout.js" changelist="604fb968-e2ff-4224-9885-bd68d2c652b2" time="1381340238757" ignored="false" />
+    <file path="/config.js" changelist="604fb968-e2ff-4224-9885-bd68d2c652b2" time="1381282467132" ignored="false" />
+    <file path="/default.tpl" changelist="604fb968-e2ff-4224-9885-bd68d2c652b2" time="1380950859152" ignored="false" />
+    <file path="/config.xml" changelist="604fb968-e2ff-4224-9885-bd68d2c652b2" time="1380951868333" ignored="false" />
+    <file path="/tests.json" changelist="604fb968-e2ff-4224-9885-bd68d2c652b2" time="1381340674202" ignored="false" />
+    <file path="/layoutEnums.js" changelist="604fb968-e2ff-4224-9885-bd68d2c652b2" time="1380955167582" ignored="false" />
+    <file path="/homeView.js" changelist="604fb968-e2ff-4224-9885-bd68d2c652b2" time="1381023107584" ignored="false" />
+    <file path="/tickerView.js" changelist="604fb968-e2ff-4224-9885-bd68d2c652b2" time="1380969553773" ignored="false" />
+    <file path="/homeViewTest.js" changelist="604fb968-e2ff-4224-9885-bd68d2c652b2" time="1380963894997" ignored="false" />
+    <file path="/homeViewTest.html" changelist="604fb968-e2ff-4224-9885-bd68d2c652b2" time="1380964456346" ignored="false" />
+    <file path="/home.tpl" changelist="604fb968-e2ff-4224-9885-bd68d2c652b2" time="1381044776344" ignored="false" />
+    <file path="/ticker.tpl" changelist="604fb968-e2ff-4224-9885-bd68d2c652b2" time="1381223234991" ignored="false" />
+    <file path="/home-view.js" changelist="604fb968-e2ff-4224-9885-bd68d2c652b2" time="1381272683743" ignored="false" />
+    <file path="/Dummy.txt" changelist="604fb968-e2ff-4224-9885-bd68d2c652b2" time="1383852658335" ignored="false" />
+    <file path="/ticker-view.js" changelist="604fb968-e2ff-4224-9885-bd68d2c652b2" time="1381272651688" ignored="false" />
+    <file path="/home.view.js" changelist="604fb968-e2ff-4224-9885-bd68d2c652b2" time="1381282206475" ignored="false" />
+    <file path="/app.test.js" changelist="604fb968-e2ff-4224-9885-bd68d2c652b2" time="1382767365682" ignored="false" />
+    <file path="/app.test.html" changelist="604fb968-e2ff-4224-9885-bd68d2c652b2" time="1381438420837" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,33 +45,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="layout.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scripts/layout.js">
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="3" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0">
+            <state line="19" column="17" selection-start="541" selection-end="541" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/index.html">
+      <file leaf-file-name="home.view.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/views/home.view.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="41" selection-start="2796" selection-end="2796" vertical-scroll-proportion="-2.967742">
-              <folding>
-                <marker date="1380914085000" expanded="true" signature="668:915" placeholder="..." />
-              </folding>
+            <state line="25" column="18" selection-start="775" selection-end="775" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="yui-full.min.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/scripts/vendor/yui-full.min.js">
+      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="301" column="13" selection-start="150866" selection-end="150866" vertical-scroll-proportion="0.125">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state line="3" column="17" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="17" selection-start="1067" selection-end="1067" vertical-scroll-proportion="0.18021202">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ticker.view.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/views/ticker.view.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="12" selection-start="788" selection-end="788" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="54" selection-start="567" selection-end="567" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/layout.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="23" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.test.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/arrow/unit/app.test.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="36" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -62,22 +124,43 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+        <option value="$PROJECT_DIR$/app/templates/home.tpl" />
+        <option value="$PROJECT_DIR$/app/templates/ticker.tpl" />
+        <option value="$PROJECT_DIR$/app/scripts/views/ticker-view.js" />
+        <option value="$PROJECT_DIR$/app/scripts/views/home-view.js" />
+        <option value="$PROJECT_DIR$/app/config.xml" />
+        <option value="$PROJECT_DIR$/appBAK100513/app/scripts/layout.js" />
         <option value="$PROJECT_DIR$/app/scripts/layout.js" />
-        <option value="$PROJECT_DIR$/app/scripts/vendor/yui-full.min.js" />
+        <option value="$PROJECT_DIR$/test/arrow/tests.json" />
+        <option value="$PROJECT_DIR$/app/scripts/index.js" />
+        <option value="$PROJECT_DIR$/app/scripts/config.js" />
+        <option value="$PROJECT_DIR$/test/arrow/unit/app.test.html" />
+        <option value="$PROJECT_DIR$/test/arrow/unit/app.test.js" />
+        <option value="$PROJECT_DIR$/app/scripts/app.js" />
+        <option value="$PROJECT_DIR$/app/scripts/views/ticker.view.js" />
+        <option value="$PROJECT_DIR$/app/scripts/views/home.view.js" />
         <option value="$PROJECT_DIR$/app/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="128" />
-    <option name="y" value="22" />
+    <option name="x" value="20" />
+    <option name="y" value="43" />
     <option name="width" value="1269" />
     <option name="height" value="759" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -103,7 +186,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -121,18 +203,12 @@
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="arrow" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -146,11 +222,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
+              <option name="myItemId" value="arrow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unit" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -161,27 +241,22 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="FullScreen" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PublishConfig" serverName="localhost -&gt; BTCApp" serverId="1763a998-c3b4-44d8-a07b-3546978d334f">
     <servers>
@@ -203,6 +278,21 @@
       </server>
     </servers>
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app" />
+      <recent name="$PROJECT_DIR$/app/scripts" />
+      <recent name="$PROJECT_DIR$/app/stylesheets/vendor" />
+      <recent name="$PROJECT_DIR$/app/scripts/vendor" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/appBAK100513" />
+      <recent name="$PROJECT_DIR$/test/arrow" />
+      <recent name="$PROJECT_DIR$/test/arrow/unit" />
+      <recent name="$PROJECT_DIR$/app/stylesheets" />
+      <recent name="$PROJECT_DIR$/app/scripts/views" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
@@ -210,6 +300,13 @@
       <option name="filePath" />
       <option name="scope" value="ALL" />
       <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
       <method />
     </configuration>
     <list size="0" />
@@ -232,6 +329,7 @@
     <option name="IGNORE_EXTERNALS" value="false" />
     <configuration useDefault="true">$USER_HOME$/.subversion</configuration>
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+    <supportedVersion>125</supportedVersion>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -242,26 +340,26 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="128" y="22" width="1269" height="759" extended-state="1" />
+    <frame x="20" y="43" width="1269" height="759" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24938676" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33033523" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -327,26 +425,109 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/scripts/layout.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="3" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0">
+        <state line="12" column="23" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="17" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/arrow/unit/app.test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="36" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="9" selection-start="511" selection-end="511" vertical-scroll-proportion="0.3">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/stylesheets/vendor/pure.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/arrow-master/demo/test/test-unit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="676" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/arrow/unit/app.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="33" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/arrow/tests.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="23" selection-start="38" selection-end="38" vertical-scroll-proportion="0.039893616">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/arrow/unit/app.test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="36" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/layout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="23" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="17" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="17" selection-start="541" selection-end="541" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="54" selection-start="567" selection-end="567" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/views/ticker.view.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="12" selection-start="788" selection-end="788" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/views/home.view.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="18" selection-start="775" selection-end="775" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="41" selection-start="2796" selection-end="2796" vertical-scroll-proportion="-2.967742">
-          <folding>
-            <marker date="1380914085000" expanded="true" signature="668:915" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/vendor/yui-full.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="301" column="13" selection-start="150866" selection-end="150866" vertical-scroll-proportion="0.125">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state line="26" column="17" selection-start="1067" selection-end="1067" vertical-scroll-proportion="0.18021202">
+          <folding />
         </state>
       </provider>
     </entry>
